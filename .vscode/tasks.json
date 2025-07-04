@@ -25,7 +25,7 @@
         {
             "label"          : "deno: watch",
             "type"           : "shell",
-            "command"        : "deno --watch src/${workspaceFolderBasename}.js",
+            "command"        : "deno --allow-ffi --watch src/${workspaceFolderBasename}.js",
             "problemMatcher" : [],
             "group"          : {"kind": "build", "isDefault": true },
             "presentation"   : {"showReuseMessage": true, "focus": false, "reveal": "silent", "close": false}
